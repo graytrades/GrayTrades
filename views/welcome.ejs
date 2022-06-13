@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+
+        <!-- Swiper javascript cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Bootstrap css link -->
+        <link rel="stylesheet" href="node/bootstrap/dist/css/bootstrap.css">
+        <!-- Main css link -->
+        <link rel="stylesheet" href="public/css/style.css">
+
+        <title>GrayTrades</title>
+    </head>
+    <body>
+
+        <!-- Nav-bar -->
+        <%- include('partial/header') %>
+
+
+
+        <!-- Chatbox -->
+        <a href="https://t.me/GrayTrades" target="_blank"><div class="chatbox"><img src="public/image/foot/telegram.png" class="img-fluid" alt="" srcset=""></div></a>
+
+
+
+
+      
+
+        <!-- ----------#####---------- Header (Section) starts here ----------#####---------- -->
+        
+            <header class="container-fluid header-con">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <!-- Header right container -->
+                        <div class="col-sm-12 col-md-9 col-lg-7">
+                            <div class="header-ryt-container">
+                                <div class="head-content">Invest in Forex, Stocks and Bonds.</div>
+                                <h1 class="mb-3 heading">Highly-Valuable Investments With Your Guaranteed Income</h1>
+                                <p class="normal-txt light-font">
+                                    Take the right step towards safe investments in a modern, highly-valued investment company.
+                                </p>
+                                <a href="/users/login" class="heading-btn">Sign In</a>
+                                <a href="/users/register" class="heading-btn" style="margin-left: 10px;">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- TradingView Widget BEGIN -->
+                <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                        {
+                            "symbols": [
+                                {
+                                    "description": "",
+                                    "proName": "FX:EURUSD"
+                                },
+                                {
+                                    "description": "",
+                                    "proName": "FX:GBPUSD"
+                                },
+                                {
+                                    "description": "",
+                                    "proName": "FX:USDJPY"
+                                },
+                                {
+                                    "description": "",
+                                    "proName": "OANDA:EURUSD"
+                                },
+                                {
+                                    "description": "",
+                                    "proName": "FX:GBPJPY"
+                                },
+                                {
+                                    "description": "",
+                                    "proName": "FX:AUDUSD"
+                                },
+                                {
+                                    "description": "",
+                                    "proName": "OANDA:GBPUSD"
+                                },
+                                {
+                                    "description": "",
+                                    "proName": "OANDA:GBPJPY"
+                                },
+                                {
+                                    "description": "",
+                                    "proName": "FX:USDCAD"
+                                },
+                                {
+                                    "description": "",
+                                    "proName": "FX:EURJPY"
+                                },
+                                {
+                                    "description": "",
+                                    "proName": "OANDA:USDJPY"
+                                }
+                            ],
+                            "showSymbolLogo": true,
+                            "colorTheme": "light",
+                            "isTransparent": false,
+                            "displayMode": "adaptive",
+                            "locale": "en"
+                        } 
+                    </script>
+                </div>
+            <!-- TradingView Widget END -->
+
+        <!-- Closed ----------#####---------- -->
+
+
+
+
+      
+
+        <!-- ----------#####---------- About Us (Section) starts here ----------#####---------- -->
+        
+            <section class="container-fluid section-general">
+                <div class="container">
+                    <div class="row abt-us align-items-center">
+                        <!-- About us right container -->
+                        <div class="col-sm-12 col-md-8 col-lg-5 p-2 mx-auto">
+                            <!-- TradingView Widget BEGIN -->
+                            <div class="tradingview-widget-container tradingview-margin">
+                                    <div class="tradingview-widget-container__widget"></div>
+                                    <div class="tradingview-widget-copyright">Forex, Futures and Bonds</div>
+                                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+                                        {
+                                            "colorTheme": "light",
+                                            "dateRange": "12M",
+                                            "showChart": true,
+                                            "locale": "en",
+                                            "width": "100%",
+                                            "height": "100%",
+                                            "largeChartUrl": "",
+                                            "isTransparent": false,
+                                            "showSymbolLogo": true,
+                                            "showFloatingTooltip": false,
+                                            "plotLineColorGrowing": "rgba(0, 0, 0, 1)",
+                                            "plotLineColorFalling": "rgba(0, 0, 0, 1)",
+                                            "gridLineColor": "rgba(240, 243, 250, 0)",
+                                            "scaleFontColor": "rgba(120, 123, 134, 1)",
+                                            "belowLineFillColorGrowing": "rgba(101, 101, 101, 0.12)",
+                                            "belowLineFillColorFalling": "rgba(101, 101, 101, 0.12)",
+                                            "belowLineFillColorGrowingBottom": "rgba(182, 182, 182, 0)",
+                                            "belowLineFillColorFallingBottom": "rgba(182, 182, 182, 0)",
+                                            "symbolActiveColor": "rgba(101, 101, 101, 0.12)",
+                                            "tabs": [
+                                                {
+                                                    "title": "Forex",
+                                                    "symbols": [
+                                                    {
+                                                        "s": "FX:EURUSD"
+                                                    },
+                                                    {
+                                                        "s": "FX:GBPUSD"
+                                                    },
+                                                    {
+                                                        "s": "FX:USDJPY"
+                                                    }
+                                                    ],
+                                                    "originalTitle": "Indices"
+                                                },
+                                                {
+                                                    "title": "Futures",
+                                                    "symbols": [
+                                                    {
+                                                        "s": "CME_MINI:ES1!",
+                                                        "d": "S&P 500"
+                                                    },
+                                                    {
+                                                        "s": "CME:6E1!",
+                                                        "d": "Euro"
+                                                    },
+                                                    {
+                                                        "s": "COMEX:GC1!",
+                                                        "d": "Gold"
+                                                    }
+                                                    ],
+                                                    "originalTitle": "Futures"
+                                                },
+                                                {
+                                                    "title": "Bonds",
+                                                    "symbols": [
+                                                    {
+                                                        "s": "CME:GE1!",
+                                                        "d": "Eurodollar"
+                                                    },
+                                                    {
+                                                        "s": "CBOT:ZB1!",
+                                                        "d": "T-Bond"
+                                                    },
+                                                    {
+                                                        "s": "CBOT:UB1!",
+                                                        "d": "Ultra T-Bond"
+                                                    }
+                                                    ],
+                                                    "originalTitle": "Bonds"
+                                                }
+                                            ]
+                                        }
+                                </script>
+                            </div>
+                            <!-- TradingView Widget END -->
+                        </div>
+
+                        <div class="col-sm-12 col-lg-7">
+                            <div class="header-ryt-container">
+                                <h3 class="section-large-txt">About GrayTrades</h3>
+                                <p class="normal-txt heading-sm">
+                                    GrayTrades does not propose some revolutionary products, but our offer is publicly available, and this is the main advantage of 
+                                    our company. Join us and see for yourself how high the quality of our trust management service is.
+                                </p>
+                                <a href="/about/" class="dark-btn">More About Us</a>
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+            </section>
+
+        <!-- Closed ----------#####---------- -->
+
+
+
+
+      
+
+        <!-- ----------#####---------- Why choose Us (Section) starts here ----------#####---------- -->
+        
+            <section class="container-fluid section-general">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <!-- Why choose us text container -->
+                        <div class="col-sm-12 col-md-10 col-lg-4 mx-auto">
+                            <div class="text-align">
+                                <h3 class="section-large-txt">Why Choose Us</h3>
+                                <p class="normal-txt">
+                                    We are happy to provide the best investment service in the fields of Forex, stocks, 
+                                    and bond exchange with the maximum professionalism!
+                                </p>
+                                <a href="/users/register" class="dark-btn">Sign Up</a>
+                            </div>
+                        </div>
+    
+                        <!-- Why choose us first card container -->
+                        <div class="col-sm-12 col-md-12 col-lg-4 why-sep">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6 col-lg-12 p-2">
+                                    <div class="card-container">
+                                        <div class="row align-items-center">
+                                            <div class="col-3 p-2">
+                                                <div class="svg-container">
+                                                    <img src="public/image/home/whyImg/ssl.png" alt="Why Image" srcset="" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="col-9 p-2 align-items-center">
+                                                <div class="card-txt">On DDOS Protection</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-sm-12 col-md-6 col-lg-12 p-2">
+                                    <div class="card-container">
+                                        <div class="row align-items-center">
+                                            <div class="col-3 p-2">
+                                                <div class="svg-container">
+                                                    <img src="public/image/home/whyImg/secure.png" alt="Why Image" srcset="" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="col-9 p-2 align-items-center">
+                                                <div class="card-txt">256-BIT AES Encryption</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Why choose us second card container -->
+                        <div class="col-sm-12 col-md-12 col-lg-4 mx-card">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6 col-lg-12 p-2">
+                                    <div class="card-container">
+                                        <div class="row align-items-center">
+                                            <div class="col-3 p-2">
+                                                <div class="svg-container">
+                                                    <img src="public/image/home/whyImg/gain.png" alt="Why Image Image" srcset="" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="col-9 p-2 align-items-center">
+                                                <div class="card-txt">Guaranteed Profit</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-sm-12 col-md-6 col-lg-12 p-2">
+                                    <div class="card-container">
+                                        <div class="row align-items-center">
+                                            <div class="col-3 p-2">
+                                                <div class="svg-container">
+                                                    <img src="public/image/home/whyImg/call-center-agent.png" alt="Why Image Image" srcset="" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="col-9 p-2 align-items-center">
+                                                <div class="card-txt">24/7 Professional Support</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+        <!-- Closed ----------#####---------- --> 
+
+
+
+
+      
+
+        <!-- ----------#####---------- Earn Profits (Section) starts here ----------#####---------- -->
+        
+            <section class="container-fluid why-wrap section-general">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="">
+                                <h3 class="section-large-txt" style="color: #fff;">Earn Profits With GrayTrades</h3>
+                                <p class="normal-txt light-font">
+                                    Our primary goal is to make your investing experience enjoyable and fruitful!
+                                </p>
+                            </div>
+                        </div> 
+                        
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="earn-card why-background align-items-center">
+                                <div class="row">
+                                    <div class="col-2 p-2">
+                                        <div class="svg-container">
+                                            <img src="public/image/home/earnImg/fx.png" alt="Earn Image" srcset="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="col-10 p-2 align-items-center">
+                                        <div class="card-lg-txt">Forex</div>
+                                        <div class="card-txt why-txt">
+                                            Participate in the world's largest financial market, where more than 
+                                            $5 trillion in currency is bought and sold every day.
+                                        </div>
+                                        <a href="/users/register" class="dark-btn">Join Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="earn-card why-background align-items-center">
+                                <div class="row">
+                                    <div class="col-2 p-2">
+                                        <div class="svg-container">
+                                            <img src="public/image/home/earnImg/secure-two.png" alt="Earn Image" srcset="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="col-10 p-2 align-items-center">
+                                        <div class="card-lg-txt">Secure transactions</div>
+                                        <div class="card-txt why-txt">
+                                            Our team pays maximum attention to the safety of investor 
+                                            funds and carefully checks all withdrawal transactions.
+                                        </div>
+                                        <a href="/users/register" class="dark-btn">Join Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="earn-card why-background align-items-center">
+                                <div class="row">
+                                    <div class="col-2 p-2">
+                                        <div class="svg-container">
+                                            <img src="public/image/home/earnImg/savings.png" alt="Earn Image" srcset="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="col-10 p-2 align-items-center">
+                                        <div class="card-lg-txt">Get income from Investments!</div>
+                                        <div class="card-txt why-txt">
+                                            Our team is always ready to offer safe and mutually beneficial 
+                                            co-operation to anyone who is ready to make money investing.
+                                        </div>
+                                        <a href="/users/register" class="dark-btn">Join Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="earn-card why-background align-items-center">
+                                <div class="row">
+                                    <div class="col-2 p-2">
+                                        <div class="svg-container">
+                                            <img src="public/image/home/earnImg/secure-payment.png" alt="Earn Image" srcset="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="col-10 p-2 align-items-center">
+                                        <div class="card-lg-txt">Diversify your financial risks with us!</div>
+                                        <div class="card-txt why-txt"> 
+                                            Due to the step-by-step strategy of work in the market, as well as in-depth 
+                                            analysis of financial trends, our company occupies a leading position.
+                                        </div>
+                                        <a href="/users/register" class="dark-btn">Join Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+        <!-- Closed ----------#####---------- -->
+
+
+
+
+        
+
+        <!-- ----------#####---------- Investment Plans (Section) starts here ----------#####---------- -->
+        
+            <section class="container-fluid section-general blue-back">
+                <div class="container">
+                    <div class="row">
+                        <!-- Investment Plans text container -->
+                        <div class="col-12">
+                            <div class="">
+                                <h3 class="section-large-txt" style="color: #fff;">Our Investment Plans</h3>
+                                <p class="normal-txt light-font">
+                                    Choose how you want to invest with us.
+                                </p>
+                            </div>
+                        </div> 
+                        
+                        <!-- Investment Plans card container -->
+                        <div class="col-sm-12 col-md-6 col-lg-4 p-2">
+                            <div class="invest-card">
+                                <div class="invest-card-content">Smart Fund</div>
+                                <h4  class="mb-3 heading dark-font" style="line-height: 0.8;">3%</h4>
+                                <p class="normal-txt heading-sm" style="line-height: 0;">12 Hours</p>
+                                <div class="col-12 card-line"></div>
+                                <div class="col-12 card-details normal-txt"><div>Min. Possible deposit:</div> <div>$350</div></div>
+                                <div class="col-12 card-details normal-txt"><div>Max. Possible deposit:</div> <div>$5000</div></div>
+                                <div class="col-12 card-details normal-txt"><div>Duration</div> <div>5 days</div></div>
+                                <div class="col-12 card-details normal-txt shift"><div>Gift Bonus</div> <div>$0</div></div>
+                                <p class="btn-auto"><a href="/users/login" class="dark-btn" style="margin-top: 0.85rem;padding: 9px  22.5px 10.55px  22.5px;">Choose Plan</a></p>
+                            </div>
+                        </div>
+                        
+                        <!-- Investment Plans card container -->
+                        <div class="col-sm-12 col-md-6 col-lg-4 p-2">
+                            <div class="invest-card">
+                                <div class="invest-card-content">Platinum</div>
+                                <h4  class="mb-3 heading dark-font" style="line-height: 0.8;">9%</h4>
+                                <p class="normal-txt heading-sm" style="line-height: 0;">24 Hours</p>
+                                <div class="col-12 card-line"></div>
+                                <div class="col-12 card-details normal-txt"><div>Min. Possible deposit:</div> <div>$5000</div></div>
+                                <div class="col-12 card-details normal-txt"><div>Max. Possible deposit:</div> <div>$15000</div></div>
+                                <div class="col-12 card-details normal-txt"><div>Duration</div> <div>5 days</div></div>
+                                <div class="col-12 card-details normal-txt shift"><div>Gift Bonus</div> <div>$0</div></div>
+                                <p class="btn-auto"><a href="/users/login" class="dark-btn" style="margin-top: 0.85rem;padding: 9px  22.5px 10.55px  22.5px;">Choose Plan</a></p>
+                            </div>
+                        </div>
+                        
+                        <!-- Investment Plans card container -->
+                        <div class="col-sm-12 col-md-6 col-lg-4 p-2 mx-auto">
+                            <div class="invest-card">
+                                <div class="invest-card-content">Ultimate</div>
+                                <h4  class="mb-3 heading dark-font" style="line-height: 0.8;">13%</h4>
+                                <p class="normal-txt heading-sm" style="line-height: 0;">24 Hours</p>
+                                <div class="col-12 card-line"></div>
+                                <div class="col-12 card-details normal-txt"><div>Min. Possible deposit:</div> <div>$15000</div></div>
+                                <div class="col-12 card-details normal-txt"><div>Max. Possible deposit:</div> <div>$45000</div></div>
+                                <div class="col-12 card-details normal-txt"><div>Duration</div> <div>5 days</div></div>
+                                <div class="col-12 card-details normal-txt shift"><div>Gift Bonus</div> <div>$0</div></div>
+                                <p class="btn-auto"><a href="/users/login" class="dark-btn" style="margin-top: 0.85rem;padding: 9px 22.5px 10.55px  22.5px;">Choose Plan</a></p>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </section>
+
+        <!-- Closed ----------#####---------- -->
+
+
+
+
+        
+
+        <!-- ----------#####---------- Testimonials (Section) starts here ----------#####---------- -->
+        
+            <section class="container-fluid testi-con section-general">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="section-title">
+                                <h2>Testimonials</h2>
+                                <p>Don't take our word for it. Here's what some of our clients have to say about us.</p>
+                            </div>
+                        </div>
+                        <div class="testimonials-carousel-wrap">
+                            <div class="listing-carousel-button listing-carousel-button-next"><i class="fa fa-caret-right" style="color: #fff"></i></div>
+                            <div class="listing-carousel-button listing-carousel-button-prev"><i class="fa fa-caret-left" style="color: #fff"></i></div>
+                            <div class="testimonials-carousel">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="testi-item">
+                                                <div class="testi-avatar"><img src="public/image/home/testImg/21.png"></div>
+                                                <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                                <div class="testimonials-text">
+                                                    <div class="listing-rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </div>
+                                                    <p>
+                                                        My life and the lives of my children have both changed as a result of the consistent profits I've withdrawn from GrayTrades. Thank you.
+                                                    </p>
+                                                    <a href="#" class="text-link"></a>
+                                                    <div class="testimonials-avatar">
+                                                        <h3>Sarah</h3>
+                                                        <h4>Marketer</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                                            </div>
+                                        </div>
+                    
+                                        <!--second--->
+                                        <div class="swiper-slide">
+                                            <div class="testi-item">
+                                                <div class="testi-avatar"><img src="public/image/home/testImg/6.png"></div>
+                                                <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                                <div class="testimonials-text">
+                                                    <div class="listing-rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </div>
+                                                    <p>
+                                                        GrayTrades has developed a personal plan for me that has allowed me take much greater control of my financial affairs and plan for the future.
+                                                    </p>
+                                                    <a href="#" class="text-link"></a>
+                                                    <div class="testimonials-avatar">
+                                                        <h3>djmzstk</h3>
+                                                        <h4>Photographer</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                                            </div>
+                                        </div>
+                                        <!--third-->
+                    
+                                        <div class="swiper-slide">
+                                            <div class="testi-item">
+                                                <div class="testi-avatar"><img src="public/image/home/testImg/4.png"></div>
+                                                <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                                <div class="testimonials-text">
+                                                    <div class="listing-rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </div>
+                                                    <p>
+                                                        GrayTrades is a great and inituative platform for all people. 
+                                                        Also great instruments and a perfectly transparent system.
+                                                    </p>
+                                                    <a href="#" class="text-link"></a>
+                                                    <div class="testimonials-avatar">
+                                                        <h3>Mehmet</h3>
+                                                        <h4>Technologist</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                                            </div>
+                                        </div>
+                    
+                                        <!--fourth-->
+                                        <div class="swiper-slide">
+                                            <div class="testi-item">
+                                                <div class="testi-avatar"><img src="public/image/home/testImg/3.png"></div>
+                                                <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                                <div class="testimonials-text">
+                                                    <div class="listing-rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </div>
+                                                    <p>
+                                                        I recommend GrayTrades because they are consistent, have good investment 
+                                                        system, instant withdrawal and good Support system.
+                                                    </p>
+                                                    <a href="#" class="text-link"></a>
+                                                    <div class="testimonials-avatar">
+                                                        <h3>Tammy</h3>
+                                                        <h4>Designer</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                                            </div>
+                                        </div>
+                                        <!--testi end-->
+                    
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="tc-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+        <!-- Closed ----------#####---------- -->
+
+
+
+
+      
+
+        <!-- ----------#####---------- Counter (Section) starts here ----------#####---------- -->
+        
+            <section class="container-fluid section-general count-back">
+                <div class="container">
+                    <div class="row">
+                        <!-- Investment Plans text container -->
+                        <div class="col-12">
+                            <div class="">
+                                <h3 class="section-large-txt" style="color: #fff;padding-top: 1.95em;">Token</h3>
+                            </div>
+                        </div> 
+
+                        <div class="col-sm-12 col-md-6 col-lg-3 p-2">
+                            <div class="counter-box">
+                                <div class="counter-icon-wrap"><img src="public/image/home/countImg/token.png" alt="Token Image" class="img-fluid"></div>
+                                <div class="counter-figure">$<span class="counter">53.65</span>M+</div>
+                                <div class="counter-discription">Market Cap</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3 p-2">
+                            <div class="counter-box">
+                                <div class="counter-icon-wrap"><img src="public/image/home/countImg/members.png" alt="" class="img-fluid"></div>
+                                <div class="counter-figure"><span class="counter">6.35</span>K+</div>
+                                <div class="counter-discription">Total Members</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3 p-2">
+                            <div class="counter-box">
+                                <div class="counter-icon-wrap"><img src="public/image/home/countImg/donation.png" alt="" class="img-fluid"></div>
+                                <div class="counter-figure"><span class="counter">729</span>K+</div>
+                                <div class="counter-discription">Total Deposited</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3 p-2">
+                            <div class="counter-box">
+                                <div class="counter-icon-wrap"><img src="public/image/home/countImg/withdraw.png" alt="" class="img-fluid"></div>
+                                <div class="counter-figure"><span class="counter">612</span>K+</div>
+                                <div class="counter-discription">Total Withdrawn</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Closed ----------#####---------- -->
+
+
+
+      
+
+        
+        <!-- Footer container -->
+        <%- include('partial/footer') %>
+
+
+
+    </body>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="public/javascript/script.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with JQuery -->
+    <script src="public/javascript/jquery.js"></script>
+    <script src="node/bootstrap/dist/js/bootstrap.js"></script>
+    
+    <!-- Swiper javascript cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+
+    <!-- Counter script start -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.counter').counterUp({
+            delay: 10,
+            time: 1200
+            });
+        });
+
+
+
+        
+        // Testimonial slider script start
+        //   all ------------------
+        function initParadoxWay() {
+            "use strict";
+        
+            if ($(".testimonials-carousel").length > 0) {
+                var j2 = new Swiper(".testimonials-carousel .swiper-container", {
+                    preloadImages: false,
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    loop: true,
+                    grabCursor: true,
+                    mousewheel: false,
+                    centeredSlides: true,
+                    pagination: {
+                        el: '.tc-pagination',
+                        clickable: true,
+                        dynamicBullets: true,
+                    },
+                    navigation: {
+                        nextEl: '.listing-carousel-button-next',
+                        prevEl: '.listing-carousel-button-prev',
+                    },
+                    breakpoints: {
+                        767: {
+                            slidesPerView: 2,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                        },
+                        
+                    }
+                });
+            }
+            
+        // bubbles -----------------
+            
+            
+            setInterval(function () {
+                var size = randomValue(sArray);
+                $('.bubbles').append('<div class="individual-bubble" style="left: ' + randomValue(bArray) + 'px; width: ' + size + 'px; height:' + size + 'px;"></div>');
+                $('.individual-bubble').animate({
+                    'bottom': '100%',
+                    'opacity': '-=0.7'
+                }, 4000, function () {
+                    $(this).remove()
+                });
+            }, 350);
+            
+        }
+
+        //   Init All ------------------
+        $(document).ready(function () {
+            initParadoxWay();
+        });
+        // Testimonial slider script end
+
+    </script>
+    <!-- Counter script end -->
+
+    
+</html>
